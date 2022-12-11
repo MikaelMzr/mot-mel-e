@@ -32,7 +32,7 @@ void sauvegarde(int taille, char grille[][taille],int compteur,char stockage_mot
             
                 fprintf(fichier,"%s ", stockage_mot[i]); 
 
-            }
+            } 
 	fprintf(fichier,"\n");
         
 
